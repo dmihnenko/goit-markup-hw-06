@@ -95,7 +95,7 @@
 										<use href="./images/symbol-defs.svg#email"></use>
 									</svg>
 								</label>
-								<label class="form-label">
+								<label class="form-label text-area">
 									<span class="form-text">Коментар</span>
 									<textarea class="form-message" name="message" rows="5"
 										placeholder="Введіть текст"></textarea>
@@ -103,7 +103,7 @@
 								<label class="form-agreement">
 									<input class="form-checkbox hide-text" type="checkbox" name="checkbox" />
 									<span class="custom-checkbox"></span>
-									<span class="form-text">Погоджуюся з розсилкою та приймаю
+									<span class="form-agreement-text">Погоджуюся з розсилкою та приймаю
 										<a class="form-link" href="">Умови договору</a></span>
 								</label>
 								<button class="form-btn" type="submit">Відправити</button>
@@ -111,7 +111,11 @@
 						</form>
 
 
-						<button data-modal-close class="close-btn"></button>
+						<button data-modal-close class="close-btn">
+							<svg class="close-btn-icon" width="18" height="18">
+								<use href="./images/symbol-defs.svg#icon-modal-close"></use>
+							</svg>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -464,7 +468,7 @@
 			</div>
 			<div class="footer-invite">
 				<form class="invite-form">
-					<em class="ivnite-title">Підпишіться на розсилку</em>
+					<p class="ivnite-title">Підпишіться на розсилку</p>
 
 					<div class="invite-section">
 						<input class="invite-input" type="email" name="invite-mail" placeholder="E-mail">
